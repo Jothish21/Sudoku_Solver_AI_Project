@@ -74,7 +74,8 @@ if backtracking_DH_result:
 else:
     print("No solution found for the Sudoku puzzle using Backtracking algorithm with Degree Heuristic.\n")
 
+
+print("Simulated Annealing:\n")
 sa_assignments, sa_exec_time = call_simulated_annealing(PROBLEM)
-print("\n Simulated Annealing:")
-print("Number of Assignments:", sa_assignments)
+print("\nNumber of Assignments:", sa_assignments)
 print("Execution Time:", sa_exec_time, "seconds\n")

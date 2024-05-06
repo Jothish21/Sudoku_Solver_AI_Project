@@ -32,6 +32,6 @@ else:
 SAsolver = SudokuSimulatedAnnealing(PROBLEM.copy())
 
 # solving the sudoku puzzle using Simulated Annealing
-SAsolution = SAsolver.solve()
 print("\n Sudoku puzzle solved using Simulated Annealing:")
-print(np.array(SAsolution).reshape((9, 9)))
+SAsolution = SAsolver.solve()
+print("\n", np.array(SAsolution).reshape((9, 9)))
